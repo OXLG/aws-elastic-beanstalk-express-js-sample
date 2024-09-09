@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('Check Point Mind Cloud Training'));
+app.get('/', (req, res) => res.send('Check Point Mind Cloud Training - and Again!'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
